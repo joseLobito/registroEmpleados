@@ -21,15 +21,17 @@ if (!$_SESSION['Ingreso']) {
     </div>
     <div class="form-group">
         <label for="puesto">Puesto</label>
-        <input type="text" class="form-control" id="pwd" name="registropuesto" />
+        <input type="text" class="form-control" id="puesto" name="registropuesto" />
     </div>
     <div class="form-group">
         <label for="salario">Salario</label>
-        <input type="text" class="form-control" id="pwd" name="registrosalario" />
+        <input type="text" class="form-control" id="salario" name="registrosalario" />
     </div>
     <br>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary" onclick="return validarFomulario();">Submit</button>
 </form>
+
+<div id="error"></div>
 
 <?php
 

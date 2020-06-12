@@ -30,6 +30,7 @@
 
     <!-- Latest compiled Fontawesome-->
     <script src="https://kit.fontawesome.com/e632f1f723.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -63,6 +64,9 @@
             ?>
         </div>
     </div>
+
+    <!--------js----------->
+    <script src="views/js/validar.js"></script>
 </body>
 
 </html>
