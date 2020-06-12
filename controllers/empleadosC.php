@@ -73,7 +73,7 @@ class EmpleadosC
             </div>
             <div class="form-group">
                 <label for="email">Email address:</label>
-                <input type="email" class="form-control" id="email" name="editarimeail" value="' . $respuesta["email"] . '"/>
+                <input type="email" class="form-control" id="email" name="editaremail" value="' . $respuesta["email"] . '"/>
             </div>
             <div class="form-group">
                 <label for="puesto">Puesto</label>
